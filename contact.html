@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="main.css" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+      crossorigin="anonymous"
+    ></script>
+
+    <title>portfolio page</title>
+  </head>
+  <body>
+    <header class="header border-bottom border-danger border-3">
+      <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container">
+          <div class="navbar-brand">your name</div>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarNavDropdown"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNavDropdown">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a href="./index.html" class="nav-link active">home</a>
+              </li>
+              <li class="nav-item">
+                <a href="./portfolio.html" class="nav-link active">portfolio</a>
+              </li>
+              <li class="nav-item">
+                <a href="./contact.html" class="nav-link active">contact</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <main
+      class="container d-flex flex-column flex-lg-row justify-content-between"
+    >
+      <div class="content me-4">
+        <h2>contact</h2>
+        <form action="#">
+          <div class="form-group">
+            <label for="#name" class="form_label">name</label>
+            <input
+              id="name"
+              type="text"
+              class="form_input form-control"
+              placeholder="name surname"
+            />
+            <label for="#email" class="form_label">email</label>
+            <input
+              id="email"
+              type="text"
+              class="form_input form-control"
+              placeholder="name@email.com"
+            />
+            <label for="#message" class="form_label">message</label>
+            <textarea
+              id="#message"
+              cols="30"
+              rows="10"
+              class="form_input form-control"
+            ></textarea>
+            <button class="form_btn btn btn-outline-danger">submit</button>
+          </div>
+        </form>
+      </div>
+      <div class="connect p-2 bg-danger-subtle">
+        <h2>connect with me</h2>
+        <div class="d-flex justify-content-around">
+          <a href="#"
+            ><img
+              src="./img/geek-avatar.jpg"
+              alt="connect image"
+              class="connect_img m-2"
+          /></a>
+          <a href="#"
+            ><img
+              src="./img/lady-avatar-2.jpg"
+              alt="connect image"
+              class="connect_img m-2"
+          /></a>
+
+          <a href="#"
+            ><img
+              src="./img/lady-avatar.jpg"
+              alt="connect image"
+              class="connect_img m-2"
+          /></a>
+        </div>
+      </div>
+    </main>
+    <footer
+      class="bg-dark text-light text-center p-3 border-top border-danger border-3"
+    >
+      Copyright &copy
+    </footer>
+  </body>
+</html>
